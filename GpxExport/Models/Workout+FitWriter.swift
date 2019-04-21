@@ -14,6 +14,7 @@ import FitnessUnits
 import AntMessageProtocol
 
 extension Workout {
+    // swiftlint:disable function_body_length
     func writeFit(completionHandler: @escaping(_ url: URL?) -> Void) {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH.mm.ss"
@@ -76,6 +77,7 @@ extension Workout {
             }
        }
     }
+    // swiftlint:enable function_body_length
 
     func createActivityMessage() -> ActivityMessage {
         let time = FitTime(date: startDate)

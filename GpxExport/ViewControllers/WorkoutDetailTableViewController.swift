@@ -122,7 +122,7 @@ class WorkoutDetailTableViewController: UITableViewController {
 
     func handlingAction(_ fileType: ExportFileType, barButtonItem: UIBarButtonItem) {
         workout?.writeFile(fileType, completionHandler: { [weak self] (targetURL) in
-            let activityViewController = UIActivityViewController(activityItems: [targetURL], applicationActivities: nil)
+            let activityViewController = UIActivityViewController(activityItems: [targetURL as Any], applicationActivities: nil)
 
             if let popoverPresentationController = activityViewController.popoverPresentationController {
                 popoverPresentationController.barButtonItem = barButtonItem

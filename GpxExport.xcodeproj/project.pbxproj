@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		175B02D6AF4B477C05308801 /* libPods-GpxExport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACBEF42898170037D4968023 /* libPods-GpxExport.a */; };
 		744388B62221965C00F02AE7 /* Workout+GpxWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744388B52221965C00F02AE7 /* Workout+GpxWriter.swift */; };
 		744388B82221E10300F02AE7 /* Workout+FitWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744388B72221E10300F02AE7 /* Workout+FitWriter.swift */; };
 		7448F1671FD08DAD0095B6B1 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448F1651FD08DAC0095B6B1 /* HealthKitSetupAssistant.swift */; };
@@ -19,7 +18,7 @@
 		76FC8A681F59A0130062E8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FC8A671F59A0130062E8EF /* AppDelegate.swift */; };
 		76FC8A6D1F59A0130062E8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FC8A6B1F59A0130062E8EF /* Main.storyboard */; };
 		76FC8A6F1F59A0130062E8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76FC8A6E1F59A0130062E8EF /* Assets.xcassets */; };
-		76FC8A7D1F59A0B10062E8EF /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FC8A7C1F59A0B10062E8EF /* WatchKit.framework */; };
+		B794A97B4B8013FEC5E7A1E5 /* Pods_GpxExport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97EFF16677F48118957E86DE /* Pods_GpxExport.framework */; };
 		CD44186C2202CFA0007CE518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD44186B2202CF9F007CE518 /* LaunchScreen.storyboard */; };
 		CD4418702202D180007CE518 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD4418722202D180007CE518 /* Localizable.strings */; };
 		CD5D20A321FB824D0008DDA5 /* WorkoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5D20A221FB824D0008DDA5 /* WorkoutTableViewCell.xib */; };
@@ -47,7 +46,7 @@
 		76FC8A731F59A0130062E8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76FC8A7C1F59A0B10062E8EF /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		88717335D3DD24BDC0E9C135 /* Pods-GpxExport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GpxExport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GpxExport/Pods-GpxExport.debug.xcconfig"; sourceTree = "<group>"; };
-		ACBEF42898170037D4968023 /* libPods-GpxExport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GpxExport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97EFF16677F48118957E86DE /* Pods_GpxExport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GpxExport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD44186B2202CF9F007CE518 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD44186D2202CFCC007CE518 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		CD4418712202D180007CE518 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -65,9 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76FC8A7D1F59A0B10062E8EF /* WatchKit.framework in Frameworks */,
 				74AC63E91FB844780028E37F /* HealthKit.framework in Frameworks */,
-				175B02D6AF4B477C05308801 /* libPods-GpxExport.a in Frameworks */,
+				B794A97B4B8013FEC5E7A1E5 /* Pods_GpxExport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,7 +153,7 @@
 			children = (
 				74AC63E81FB844780028E37F /* HealthKit.framework */,
 				76FC8A7C1F59A0B10062E8EF /* WatchKit.framework */,
-				ACBEF42898170037D4968023 /* libPods-GpxExport.a */,
+				97EFF16677F48118957E86DE /* Pods_GpxExport.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,6 +189,7 @@
 				76FC8A611F59A0130062E8EF /* Frameworks */,
 				76FC8A621F59A0130062E8EF /* Resources */,
 				7437D54D21FDB3BB00594826 /* Swiftlint */,
+				98AAE845A25984BBDCC495F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +297,34 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ -z \"$CI\" ]; then\n${PODS_ROOT}/SwiftLint/swiftlint\nfi\n";
 		};
+		98AAE845A25984BBDCC495F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GpxExport/Pods-GpxExport-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AntMessageProtocol/AntMessageProtocol.framework",
+				"${BUILT_PRODUCTS_DIR}/DataDecoder/DataDecoder.framework",
+				"${BUILT_PRODUCTS_DIR}/FitDataProtocol/FitDataProtocol.framework",
+				"${BUILT_PRODUCTS_DIR}/FitnessUnits/FitnessUnits.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AntMessageProtocol.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DataDecoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FitDataProtocol.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FitnessUnits.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GpxExport/Pods-GpxExport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -396,7 +423,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -450,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
